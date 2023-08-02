@@ -1,5 +1,56 @@
-.test {
-  color: rgb(24, 67, 168);
+// .test {
+//   color: rgb(51, 52, 54);
+//   font-weight: bold;
+//   background-color: rgb(255, 246, 218);
+//   text-align: center;
+// }
+.top {
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
   font-weight: bold;
-  background-color: rgb(200, 230, 255);
+  color: #00a7ea;
+  font-family: "DINOT-Bold", "Helvetica Neue", Arial, "游ゴシック体", YuGothic,
+    "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ", "Hiragino Kaku Gothic",
+    "MS PGothic", sans-serif;
+  margin-bottom: 8px;
+}
+.news_sub {
+  font-size: 16px;
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+  margin-bottom: 31px;
+}
+
+.toko_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 16px;
+}
+.picture_box {
+  height: 160px;
+  width: 240px;
+  background-color: #00a7ea;
+}
+.text_box {
+  height: 80px;
+  width: 240px;
+  background-color: #979797;
+}
+.text_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+}
+.p_a {
+  margin-left: auto;
+  margin-right: auto;
+}
+.toko_area {
+  width: 100vw;
+  margin: 24px;
 }
