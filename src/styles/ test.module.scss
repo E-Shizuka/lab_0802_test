@@ -32,14 +32,18 @@
   margin: 16px;
 }
 .picture_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 160px;
   width: 240px;
-  background-color: #00a7ea;
+  margin-bottom: 8px;
+  background-color: #abe2f7;
 }
 .text_box {
   height: 80px;
   width: 240px;
-  background-color: #979797;
+  background-color: #c0bfbf;
 }
 .text_title {
   display: flex;
